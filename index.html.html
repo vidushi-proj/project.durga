@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Durga</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      width: 100%;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      scroll-snap-type: y mandatory;
+      overflow-y: scroll;
+    }
+    section {
+      width: 100%;
+      height: 100vh;
+      scroll-snap-align: start;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      transition: background-color 0.8s ease, color 0.8s ease;
+      text-align: center;
+      padding: 2rem;
+    }
+    .section1 {
+      background-color: #b81828;
+      color: #ffeb3b;
+      position: relative;
+      overflow: hidden;
+    }
+    .section1::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('Cinzel.png') center center / cover no-repeat;
+      opacity: 0.3;
+      z-index: 1;
+    }
+    .section1 h1 {
+      font-size: 3rem;
+      z-index: 2;
+      animation: fadeIn 2s ease forwards;
+    }
+    .section2 {
+      background-color: #b81828;
+      color: white;
+    }
+    .section3 {
+      background-color: #ffeb3b;
+      color: #b81828;
+    }
+    .section4 {
+      background-color: #fff3e0;
+      color: #b81828;
+    }
+    .section5 {
+      background-color: #fff8e1;
+      color: #333;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      font-size: 2rem;
+    }
+    p, ul {
+      max-width: 800px;
+      font-size: 1.2rem;
+    }
+    ul {
+      list-style: disc;
+      text-align: left;
+      margin: 1rem auto;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <section class="section1">
+    <h1>Durga Within Every Girl</h1>
+  </section>
+
+  <section class="section2">
+    <h2>Who Are We?</h2>
+    <p><strong>Project Durga</strong> is a bold, youth-led awareness and advocacy platform reimagining gender justice in Indian society. We are a collective of young changemakers using storytelling, education, and public dialogue to challenge patriarchal structures and empower marginalized voices.</p>
+    <p>Rooted in <strong>SDG 5 — Gender Equality</strong>, our mission goes beyond gender. We advocate for intersectional justice through:</p>
+    <ul>
+      <li><strong>SDG 3</strong> — Mental health & well-being for marginalized genders</li>
+      <li><strong>SDG 4</strong> — Access to inclusive, feminist education</li>
+      <li><strong>SDG 10</strong> — Reducing social, caste & gender-based inequality</li>
+    </ul>
+    <p>Because justice is not siloed. And awareness is our loudest tool.</p>
+  </section>
+
+  <section class="section3">
+    <h2>Our Mission</h2>
+    <p>To build an India where every girl recognizes the Durga within her — fierce, resilient, and unstoppable. We aim to empower youth through education, creativity, and community action, challenging gender norms and fostering inclusive change.</p>
+  </section>
+
+  <section class="section4">
+    <h2>Meet the Founder</h2>
+    <p><strong>Vidushi Sharma</strong> is a young changemaker who believes the fiercest revolutions begin with a story. From slam poetry to grassroots advocacy, her journey is rooted in the belief that courage is contagious. Project Durga is her call to the youth — to speak, to act, and to redefine equality for our times.</p>
+  </section>
+
+  <section class="section5">
+    <h2>Blogs & Initiatives</h2>
+    <p>Read our latest stories, explore impact campaigns, and join the movement:</p>
+    <ul>
+      <li>Awareness Drives in Schools</li>
+      <li>Mental Health Circles</li>
+      <li>Storytelling Through Art</li>
+      <li>Volunteer-Led Research Projects</li>
+    </ul>
+  </section>
+
+
+<section class="section1">
+  <div class="section1-content">
+    <img src="FINAL LOGO.jpg" alt="Project Durga Logo" />
+    <h1>Durga Within Every Girl</h1>
+  </div>
+</section>
+</body>
+</html>
